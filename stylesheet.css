@@ -1,0 +1,73 @@
+
+/*---Navbar---*/
+
+nav{
+    background-color: #000000;
+}
+
+#logo{
+    width:160px;
+    height:auto;
+    vertical-align: middle;
+    margin-left: 50px;
+    margin-right: 3%;
+}
+
+#navlist{
+    display: inline-block;
+    font-weight: bold;
+
+	
+	background-size: cover;
+	list-style-type:none;
+}
+
+#navlist li{
+    display: inline-block;
+    margin: 50px;
+}
+
+#navlist a{
+    background-color:#aaaaaa,;
+    
+	padding: 10px;
+	color:#ffff;
+	
+}
+
+
+
+/*---Article 2---*/
+
+.pic{
+    width: 260px;
+    height: auto;
+
+    float:left;
+    margin-right:12px;
+    vertical-align: middle;
+}
+
+article{
+    float:left;
+}
+
+
+
+
+
+/*---About Me Page---*/
+
+#pic_of_me{
+    width: 360px; /* you can use % */
+    height: auto;
+    vertical-align: middle;
+    float:left;
+
+    margin-right:25px;
+}
+
+#about{
+    display: inline;
+    padding: 35px;
+}
