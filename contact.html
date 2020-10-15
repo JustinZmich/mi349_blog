@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Justin Zmich">
+
+    <title>Senior Speak Cafe</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    
+    <nav>
+
+        <img src="logo1.png" alt="A senior citizen using a computer inside of a text bubble" id=logo>
+
+
+        <ul id=navlist>
+            <li><a href="index.html">Blog</a></li>
+            <li><a href="about.html">About the Author</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+
+
+
+
+<form action="" method="get" class="form-example">
+    <div class="form">
+      <label for="name">Enter your name: </label>
+      <input type="text" name="name" id="name" value="What is your name?" required>
+    </div>
+    <div class="form">
+      <label for="email">Enter your email: </label>
+      <input type="text" name="email" id="email" value="E-mail Address?" required>
+    </div>
+
+    <label for="reason">Why did you want to contact us today?</label>
+
+<select name="why" id="contact">
+    <option value="choose">--Please choose an option--</option>
+    <option value="hi">saying hi</option>
+    <option value="contractor">looking for a contractor</option>
+    <option value="interview">interested in an interview</option>
+    <option value="lost">just lost...</option>
+</select>
+
+<div class="etc">
+    <label></label>
+    <textarea id = "myTextArea"
+        rows = "3"
+        cols = "80">Anything else you want to tell us?</textarea>
+</div>
+
+
+    <div class="form-example">
+      <input type="submit" value="Contact Us">
+    </div>
+  </form>
+  
+</body>
