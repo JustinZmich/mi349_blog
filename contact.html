@@ -6,7 +6,7 @@
     <meta name="author" content="Justin Zmich">
 
     <title>Senior Speak Cafe</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -27,19 +27,19 @@
 
 
 
-<form method="get" class="form-example">
-    <div class="form">
+<form method="get" class="form1">
+    <div class="contactus">
       <label for="name">Enter your name: </label>
       <input type="text" name="name" id="name" value="What is your name?" required>
     </div>
-    <div class="form">
+    <div class="contactus">
       <label for="email">Enter your email: </label>
       <input type="text" name="email" id="email" value="E-mail Address?" required>
     </div>
 
-    <label>Why did you want to contact us today?</label>
+    <label class="contactus">Why did you want to contact us today?</label>
 
-<select name="why" id="contact">
+<select name="why" class="textbox">
     <option value="choose">--Please choose an option--</option>
     <option value="hi">saying hi</option>
     <option value="contractor">looking for a contractor</option>
@@ -47,15 +47,16 @@
     <option value="lost">just lost...</option>
 </select>
 
-<div class="etc">
+<div class="contactus">
     <label></label>
-    <textarea id = "myTextArea"
+    <textarea class="textbox"
         rows = "3"
-        cols = "80">Anything else you want to tell us?</textarea>
+        cols = "80">
+        Anything else you want to tell us?</textarea>
 </div>
 
 
-    <div class="form-example">
+    <div class="contactus">
       <input type="submit" value="Contact Us">
     </div>
   </form>
